@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #e0e0e0;
+}
+
+.reloj {
+  display: flex;
+  gap: 5rem;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.hora,
+.minuto,
+.segundo {
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: -26px 26px 52px #bebebe, 26px -26px 52px #ffffff;
+}
